@@ -1,3 +1,7 @@
 public class Pedido {
-    private String cadigo ;
+    private String codigo ;
+
+    public Pedido(String codigo) {
+        this.codigo = codigo;
+    }
 }
